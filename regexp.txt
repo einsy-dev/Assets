@@ -1,0 +1,17 @@
+begining of file 
+^(?<!\n)
+^(?<![\w\W])
+^(?<![\s\S\r])
+
+replace with 
+@use  '~styles/mixins' as *;\n - new line
+
+insert after pattern
+text.replace(pattern, '$&' + replacement); 
+
+
+server 
+Основной IP адрес: 203.31.40.34
+
+Логин: root
+Root пароль: Yu7y6qTODo041Vx

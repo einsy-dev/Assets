@@ -1,0 +1,2 @@
+ls -l test.s &> result.txt # errors and result
+ls: cannot access 'test.s': No such file or directory
